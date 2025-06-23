@@ -50,11 +50,14 @@ server/           # Backend (Node.js + Express)
 
 #### 1. Clone the repository
 ```sh
-git clone <repo-url>
-cd <repo-folder>
+git clone https://github.com/superdudeneel/fitness-tracker.git
+cd fitness-tracker
 ```
 
 #### 2. Install dependencies
+```sh
+npm install
+```
 
 **Frontend:**
 ```sh
@@ -98,8 +101,6 @@ The frontend will typically run on [http://localhost:5173](http://localhost:5173
 - `POST /api/workout`  — Adding a workout to the database
 - `GET /api/workout`  — Loading all the saved workouts
 - `GET /api/user/profile` — Get user profile
-- `POST /api/workouts` — Add a workout
-- `GET /api/workouts` — Get all workouts for a user
 
 ## Contributing
 
