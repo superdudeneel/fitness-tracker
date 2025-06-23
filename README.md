@@ -88,19 +88,18 @@ cd client
 npm run dev
 ```
 
-The frontend will typically run on [http://localhost:5173](http://localhost:5173) and the backend on [http://localhost:3000](http://localhost:3000).
+The frontend will typically run on [http://localhost:5173](http://localhost:5173) and the backend on [http://localhost:5000](http://localhost:5000).
 
 ## API Endpoints
 
 - `POST /api/signup` — Register a new user
 - `POST /api/login` — User login
-- `POST /api/auth/forgotpass` — Password reset
+- `POST /api/forgotpass` — Password reset
 - `POST /api/resetpass`  — Password reset
 - `GET /api/load`  — populate user profile
 - `GET /api/logout` — Logout
 - `POST /api/workout`  — Adding a workout to the database
 - `GET /api/workout`  — Loading all the saved workouts
-- `GET /api/user/profile` — Get user profile
 
 ## Contributing
 
